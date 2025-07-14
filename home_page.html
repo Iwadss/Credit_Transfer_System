@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Home </title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <!-- This is for font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto&display=swap" rel="stylesheet">
+        <!-- font awesome 4 cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Images/unikl_logo.png">
+    </head>
+<body>
+    <section class="home-page">
+        <nav>
+            <a href="home_page.html"><img src="Images/unikl_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!-- close icon for small screen -->
+                <ul>
+                    <li><a href="home_page.html">Home</a></li>
+                    <li><a href="record_page.html">Record</a></li>
+                    <li><a href="transferring_page.php">Credit Transfer</a></li>
+                    <li><a  href="logout.php">Logout</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> <!-- menu icon for small screen -->
+        </nav>
+
+    <div class="text-box">
+        <h1>CREDIT TRANSFER SYSTEM</h1>
+        <p>the acceptance of prior learning represented in course units or credits
+            applied and articulated<br>(denoted) on a student's academic transcript.</p>
+        <a href="transferring_page.php" class= "transferring-btn">Credit Transfer</a>
+    </div>    
+    </section>
+
+    <!-------------------------------- Records -------------------------------->
+    <section class="record-item">
+        <div class="record-box-item">
+            <h1>CREDIT TRANSFER RECORD</h1>
+
+            <div class="row">
+
+                <div class="Record-col">
+                    <div class="dropdown">
+                        <img src="Images/add_icon.png">
+                    
+                        <div class="dropdown-content">
+                            <a href="institute_page.php">Institute</a>
+                            <a href="programme_page.php">Programme</a>
+                            <a href="course_page.php">Course</a>
+                        </div>
+                        <h4>ADD RECORD</h4>
+                    </div>
+                </div>
+
+                <div class="Record-col">
+                    <a href="mapping_page.php">
+                        <img src="Images/mapping_icon.png">
+                    </a>
+                    <h4>ADD MAPPING</h4>
+                </div>
+
+                <div class="Record-col">
+                    <a href="view_record.php">
+                        <img src="Images/edit_icon.png">
+                    </a>
+                    <h4>VIEW RECORD</h4>
+                </div>
+            </div>
+
+            <a href="record_page.html" class= "view-more-btn">View More</a>
+        </div>
+    </section>
+
+    <!-------------------------------- Footer -------------------------------->
+    <!------ 1st Footer ------>
+    <section class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="Images/unikl_footer_logo.png">
+
+            <p class="footer-links">
+                <a href="home_page.html">Home</a>
+                |
+                <a href="logout.php">Log Out</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>1016, Jalan Sultan Ismail</span>
+                    <span>50250 Kuala Lumpur</span>
+                </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>
+                    <span>+60 3-2175 4000</span>
+                </p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>  
+                    <span>enquiries@unikl.edu.my</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the system</span>
+                <b>Credit transfer system</b> is is the process of transferring course credits 
+                that have been taken by students in one program to another program leading 
+                to the award of qualifications offered by the same institution or different institutions. 
+                and
+                this project using
+                HTML, JavaScript, PHP, C/C++ and  CSS.
+            </p>
+         
+        </div>
+    </section>
+
+    <!-----2nd footer------>
+    <section class="footer-a">
+        <p class="text-light">
+        Copyright &copy; 2022 <b>UniKL MIIT</b> All rights reserved</p>
+    </section>
+    
+<!------ JavaScript to give function to icon in small screen ------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
