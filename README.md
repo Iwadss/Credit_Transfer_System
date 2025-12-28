@@ -1,29 +1,16 @@
 # Credit Transfer System
-## Final Year Project (Diploma)
+## Final Year Project (Diploma) | PHP, HTML, CSS, Java, SQL
 
-**Technologies**: PHP, HTML, CSS, Java, SQL
+Developed a web-based system to manage and process student credit transfer requests between academic institutions.
 
-### Project Overview
-This project is a web-based system developed to manage and process student credit transfer requests between academic institutions. It streamlines the workflow for students, faculty, and administrators.
+*   **Used PHP** for backend logic and database interaction.
+*   **HTML/CSS** for frontend interface.
+*   **Java** for additional processing modules.
 
-**Key capabilities include:**
-*   **Backend Logic**: Built with **PHP** for robust server-side processing and database interaction.
-*   **Frontend Interface**: Designed using **HTML** and **CSS** for a user-friendly experience.
-*   **Processing Modules**: Utilizes **Java** for additional processing tasks.
-*   **Database**: **SQL** (MySQL) used for data management.
-
-### Features
-*   **Student Registration**: Allows potential transfer students to register within the system.
-*   **Subject Mapping**: Facilitates the mapping of courses from previous institutions to current programmes.
-*   **Application Submission**: Students can submit credit transfer applications online.
-*   **Admin Approval Workflow**: A structured workflow for administrators to review and approve/reject applications.
-*   **Form Validation**: Ensures data integrity during input.
-*   **Secure Login**: Role-based access control for security.
-*   **Real-time Tracking**: Users can track the status of their applications.
-
-### Role-Based Access
-*   **Students**: Apply for transfers, view status.
-*   **Faculty/Admin**: Manage mappings, review applications, approve requests.
+**Features included:**
+*   Student registration, subject mapping, application submission, and admin approval workflow.
+*   Implemented form validation, secure login, and real-time application status tracking.
+*   Designed for use by students, faculty, and admin panels with role-based access.
 
 ---
 
